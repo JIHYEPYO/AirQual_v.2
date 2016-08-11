@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="Main"
+            android:id="@+id/nav_main"
+            android:icon="@drawable/main"></item>
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="RealTime Data"
+            android:id="@+id/nav_realtime_data"
+            android:icon="@drawable/realtime"></item>
+        <item
+            android:title="Chart"
+            android:id="@+id/nav_chart"
+            android:icon="@drawable/chart"></item>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="RealTime Map"
+            android:id="@+id/nav_realtime_map"
+            android:icon="@drawable/map"></item>
+        <item
+            android:title="History Map"
+            android:icon="@drawable/history"
+            android:id="@+id/nav_history_map"></item>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="Device Management"
+            android:id="@+id/nav_management"
+            android:icon="@drawable/setting"></item>
+    </group>
+</menu>

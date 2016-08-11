@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CO_button"
+            android:text="CO"
+            android:background="#f2f2f2"
+            />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SO2_button"
+            android:text="SO2"
+            android:background="#f2f2f2"
+            />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/NO_button"
+            android:text="NO"
+            android:background="#f2f2f2"
+
+            />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/O3_button"
+            android:text="O3"
+            android:background="#f2f2f2"
+
+            />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/PM_button"
+            android:text="PM"
+            android:background="#f2f2f2"
+
+            />
+
+
+    </LinearLayout>
+
+    <fragment
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map3"
+        android:tag="map3"
+        />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorSignInBackGround"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:ems="20"
+        android:id="@+id/editTextEmail"
+        android:background="@color/colorGray"
+        android:textSize="13pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="pyojihye95@gmail.com" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="64"
+        android:id="@+id/editTextPassword"
+        android:hint="Password"
+        android:background="@color/colorGray"
+        android:layout_marginTop="20dp"
+        android:textSize="13pt"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="123456789" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="LOGIN"
+        android:id="@+id/buttonLogin"
+        android:background="@color/colorButtonLogInBackGround"
+        android:textColor="@color/colorAccent"
+        android:textSize="13pt"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/editTextPassword"
+        android:layout_alignEnd="@+id/editTextPassword" />
+
+    <TextView
+        style="@style/Hyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Sign up now!"
+        android:textSize="10pt"
+        android:id="@+id/textViewSignIn"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:singleLine="true"
+        android:textStyle="italic"
+        android:onClick="textViewSignInClick"
+        android:clickable="true"
+        android:gravity="center" />
+
+</LinearLayout>
