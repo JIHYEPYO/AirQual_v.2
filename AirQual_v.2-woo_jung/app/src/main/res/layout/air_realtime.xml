@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/all_layout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#d9d9d9"
+            android:layout_marginBottom="1.5dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:text="---"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="75dp"
+                    android:textSize="60dp"
+                    android:textColor="#000000"
+                    android:id="@+id/heart_text"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+
+            android:layout_marginBottom="2dp"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:background="#f2f2f2"
+                android:layout_marginRight="1.5dp"
+                android:id="@+id/CO_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="CO"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/CO_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:layout_marginLeft="1.5dp"
+                android:background="#f2f2f2"
+                android:id="@+id/SO2_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="SO2"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/SO2_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+
+            android:layout_marginBottom="2dp"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:background="#f2f2f2"
+                android:layout_marginRight="1.5dp"
+                android:id="@+id/NO2_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="NO2"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/NO2_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:layout_marginLeft="1.5dp"
+                android:background="#f2f2f2"
+                android:id="@+id/O3_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="O3"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/O3_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+
+            android:layout_marginBottom="2dp"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:background="#f2f2f2"
+                android:layout_marginRight="1.5dp"
+                android:id="@+id/TEMP_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="TEMP"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/temp_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="1.5dp"
+                android:layout_marginLeft="1.5dp"
+                android:background="#f2f2f2"
+                android:id="@+id/PM_Frame"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|top"
+                    android:text="PM"
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:text="---"
+                    android:textSize="70dp"
+
+                    android:textColor="#000000"
+                    android:id="@+id/PM_data"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

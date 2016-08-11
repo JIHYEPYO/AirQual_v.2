@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#aad293</color>
+    <color name="colorPrimaryDark">#588f33</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorGray">#f2f2f2</color>
+    <color name="colorGrayDark">#bfbfbf</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorIntroBackGround">#7fb648</color>
+    <color name="colorTextHint">#808080</color>
+    <color name="colorSignUpBackGround">#96c778</color>
+    <color name="colorButtonRegisterBackGround">#4d7832</color>
+    <color name="colorButtonRegisterTextColor">#f3f3f3</color>
+    <color name="colorButtonLogInBackGround">#4f9e30</color>
+    <color name="colorSignInBackGround">#aac679</color>
+    <color name="colorCO">#5EC75E</color>
+    <color name="colorSO2">#FFAF0A</color>
+    <color name="colorNO2">#CD3C3C</color>
+    <color name="colorO3">#FF02E402</color>
+    <color name="colorPM">#FF904098</color>
+    <color name="colorTEMP">#5EC75E</color>
+</resources>

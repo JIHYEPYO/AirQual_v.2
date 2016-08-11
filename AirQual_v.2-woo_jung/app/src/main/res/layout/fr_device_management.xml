@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        android:paddingBottom="80dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGray"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/udoo0"
+                android:id="@+id/imageViewUdoo"
+                android:clickable="true"
+               />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="UDOO Board"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:id="@+id/TextViewUDOO"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="NOT CONNECTED"
+                    android:id="@+id/TextViewUDOOMac"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButtonUdoo"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="25dp"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGray"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/heartrate0"
+                android:id="@+id/imageViewHeart"
+                android:clickable="true"
+
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Heart Rate"
+                    android:textStyle="bold"
+                    android:id="@+id/TextViewHR"
+                    android:textSize="25dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="NOT CONNECTED"
+                    android:id="@+id/TextViewHRMac"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:id="@+id/toggleButtonHeart"
+                android:layout_gravity="center|right"
+                android:checked="false"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
